@@ -1,0 +1,130 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pet_agendamentos",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pet_agendamento",
+    "MaxGetRowsCount": 500,
+    "Name": "Agendamentos_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "exchangerate": "Taxa de Câmbio",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "pet_agendamento_AsyncOperations": "Trabalhos do Sistema",
+      "pet_agendamento_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "pet_agendamento_DuplicateBaseRecord": "Registros Duplicados (pet_agendamento_DuplicateBaseRecord)",
+      "pet_agendamento_DuplicateMatchingRecord": "Registros Duplicados (pet_agendamento_DuplicateMatchingRecord)",
+      "pet_agendamento_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "pet_agendamento_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "pet_agendamento_ProcessSession": "Sessões de Processo",
+      "pet_agendamento_SyncErrors": "Erros de Sincronização",
+      "pet_agendamentoid": "Agendamento",
+      "pet_Animal": "Animal",
+      "pet_Cliente": "Cliente",
+      "pet_horariofim": "Horário Fim",
+      "pet_horarioinicio": "Horário Início",
+      "pet_name": "Name",
+      "pet_tipodeagendamento": "Tipo de Agendamento",
+      "pet_Tutor": "Tutor",
+      "pet_valor": "Valor",
+      "pet_valor_base": "Valor (Base)",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "transactioncurrencyid": "Moeda",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Agendamentos_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Agendamentos_1 (Modos de exibição)",
+    "Name": "_pet_agendamento_views",
+    "RelatedEntityName": "Agendamentos_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "58f50c86-40b2-43fd-ac53-4eefa997e048": "Agendamentos Inativos(as)",
+      "64242327-6904-4e70-811a-275c6ece44e9": "Agendamentos Ativos(as)",
+      "7490c563-e192-4b85-a447-229374838b35": "Exibição de Consulta de Agendamento",
+      "7f5c2db3-162e-483e-95f0-1de1e9dc2e2f": "Exibição de Localização Avançada de Agendamento",
+      "cda61e07-d110-4bef-b001-5c390accb0ce": "Exibição Associada de Agendamento"
+    }
+  },
+  {
+    "DisplayName": "Status (Agendamentos_1)",
+    "Name": "pet_agendamento_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Agendamentos_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Agendamentos_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Agendamentos_1)",
+    "Name": "pet_agendamento_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Agendamentos_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Agendamentos_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Serviços",
+    "Name": "pet_servicos",
+    "OptionSetInfoNameMapping": {
+      "891030000": "Banho",
+      "891030001": "Tosa",
+      "891030002": "Banho e Tosa",
+      "891030003": "Consulta",
+      "891030004": "Pacote Completo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_tipodeagendamento",
+        "OptionSetReferenceEntityName": "Agendamentos_1"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pet_tipodeagendamento",
+    "RelatedEntityName": "Agendamentos_1",
+    "Type": "OptionSetInfo"
+  }
+]

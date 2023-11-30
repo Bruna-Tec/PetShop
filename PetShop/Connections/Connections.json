@@ -1,0 +1,36 @@
+{
+  "eb7f70c2-1658-45e3-84f9-1a69cb80889b": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {
+          "value": "69ae8671-7e7e-ee11-8179-00224837be42"
+        },
+        "workflowName": {
+          "value": "ea7ac2a3-b15b-4188-b9ef-b7513d72d701"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {
+          "value": "69ae8671-7e7e-ee11-8179-00224837be42"
+        },
+        "workflowName": {
+          "value": "ea7ac2a3-b15b-4188-b9ef-b7513d72d701"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ProcuraCEP"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "eb7f70c2-1658-45e3-84f9-1a69cb80889b"
+  }
+}

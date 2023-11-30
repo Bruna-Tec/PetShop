@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "7c869940-2729-4948-889c-1d5450c88336",
+    "Name": "ProcuraCEP",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "69ae8671-7e7e-ee11-8179-00224837be42"
+  }
+]

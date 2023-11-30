@@ -1,0 +1,46 @@
+"'Tela de Confirmação' As screen":
+    Fill: =RGBA(0, 139, 139, 1)
+
+    Image1_1 As image:
+        Height: =325
+        Image: ='animal-paw-print'
+        Width: =313
+        X: =157
+        Y: =359
+        ZIndex: =1
+
+    Label1_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =126
+        Italic: =true
+        Size: =38
+        Text: ="Agendamento efetuado com sucesso"
+        Width: =560
+        X: =54
+        Y: =164
+        ZIndex: =3
+
+    Button1_5 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =53
+        HoverFill: =Color.LightGray
+        OnSelect: =Navigate('Tela Inicial')
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =24
+        Text: ="OK"
+        Width: =98
+        X: =264
+        Y: =569
+        ZIndex: =4
+
+    Image3 As image:
+        Height: =383
+        Image: =varios
+        Width: =627
+        Y: =753
+        ZIndex: =5
+

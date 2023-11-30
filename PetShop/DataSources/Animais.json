@@ -1,0 +1,213 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pet_animals",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pet_animal",
+    "MaxGetRowsCount": 500,
+    "Name": "Animais",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "pet_agendamento_Animal_pet_animal": "Agendamentos (pet_agendamento_Animal_pet_animal)",
+      "pet_agendamento_Tutor_pet_animal": "Agendamentos (pet_agendamento_Tutor_pet_animal)",
+      "pet_animal_AsyncOperations": "Trabalhos do Sistema",
+      "pet_animal_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "pet_animal_DuplicateBaseRecord": "Registros Duplicados (pet_animal_DuplicateBaseRecord)",
+      "pet_animal_DuplicateMatchingRecord": "Registros Duplicados (pet_animal_DuplicateMatchingRecord)",
+      "pet_animal_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "pet_animal_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "pet_animal_ProcessSession": "Sessões de Processo",
+      "pet_animal_SyncErrors": "Erros de Sincronização",
+      "pet_animalid": "Animal",
+      "pet_cor": "Cor",
+      "pet_descricaodadoenca": "Descrição da doença",
+      "pet_especie": "Espécie",
+      "pet_idade": "Idade",
+      "pet_manso": "Manso",
+      "pet_name": "Name",
+      "pet_nome": "Nome do Pet",
+      "pet_NomedoTutor": "Nome do Tutor",
+      "pet_porte": "Porte",
+      "pet_possuidoenca": "Possui Doença?",
+      "pet_raca": "Raça",
+      "pet_sexo": "Sexo",
+      "pet_tutor": "Tutor01",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Animais",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Animais (Modos de exibição)",
+    "Name": "_pet_animal_views",
+    "RelatedEntityName": "Animais",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2b325058-bf2c-4788-b825-1e3b0b262b20": "Exibição Associada de Animal",
+      "34aa3b2f-f4b1-478c-803b-07759e6187dc": "Exibição de Localização Avançada de Animal",
+      "5dcaaa59-f083-4849-91bc-d9eb2b43d591": "Exibição de Consulta de Animal",
+      "6a1489ad-07f5-4544-a6b2-188373d2296c": "Animais Inativos(as)",
+      "7fc169da-941b-441d-ae59-5e2aaac2e1cf": "Animais Ativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Manso (Animais)",
+    "Name": "pet_animal_pet_manso",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_manso",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "pet_manso",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Possui Doença? (Animais)",
+    "Name": "pet_animal_pet_possuidoenca",
+    "OptionSetInfoNameMapping": {
+      "0": "Não",
+      "1": "Sim"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_possuidoenca",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "pet_possuidoenca",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Animais)",
+    "Name": "pet_animal_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Animais)",
+    "Name": "pet_animal_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Espécies",
+    "Name": "pet_especies",
+    "OptionSetInfoNameMapping": {
+      "891030000": "Felina",
+      "891030001": "Canina",
+      "891030002": "Outras"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_especie",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pet_especie",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Porte",
+    "Name": "pet_porte",
+    "OptionSetInfoNameMapping": {
+      "891030000": "Pequeno",
+      "891030001": "Médio",
+      "891030002": "Grande"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_porte",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pet_porte",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Sexo",
+    "Name": "pet_sexo",
+    "OptionSetInfoNameMapping": {
+      "891030000": "Fêmea",
+      "891030001": "Macho"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "pet_sexo",
+        "OptionSetReferenceEntityName": "Animais"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "pet_sexo",
+    "RelatedEntityName": "Animais",
+    "Type": "OptionSetInfo"
+  }
+]

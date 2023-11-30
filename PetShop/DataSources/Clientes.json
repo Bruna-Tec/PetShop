@@ -1,0 +1,111 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "pet_clientes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "pet_cliente",
+    "MaxGetRowsCount": 500,
+    "Name": "Clientes",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "pet_agendamento_Cliente_pet_cliente": "Agendamentos",
+      "pet_animal_NomedoTutor_pet_cliente": "Animais",
+      "pet_celular": "Celular",
+      "pet_cep": "CEP",
+      "pet_cidade": "Cidade",
+      "pet_cliente_AsyncOperations": "Trabalhos do Sistema",
+      "pet_cliente_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "pet_cliente_DuplicateBaseRecord": "Registros Duplicados (pet_cliente_DuplicateBaseRecord)",
+      "pet_cliente_DuplicateMatchingRecord": "Registros Duplicados (pet_cliente_DuplicateMatchingRecord)",
+      "pet_cliente_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "pet_cliente_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "pet_cliente_ProcessSession": "Sessões de Processo",
+      "pet_cliente_SyncErrors": "Erros de Sincronização",
+      "pet_clienteid": "Cliente",
+      "pet_cpf": "CPF",
+      "pet_datadenascimento": "Data de Nascimento",
+      "pet_email": "E-mail",
+      "pet_endereco": "Endereço",
+      "pet_estado": "UF",
+      "pet_name": "Name",
+      "pet_nome": "Nome",
+      "pet_numero": "Número",
+      "pet_pendencias": "Pendências",
+      "pet_rg": "RG",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Clientes",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Clientes (Modos de exibição)",
+    "Name": "_pet_cliente_views",
+    "RelatedEntityName": "Clientes",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "78d3d051-1db8-48f5-84cf-576851919fb1": "Clientes Inativos(as)",
+      "b8d3a262-2f94-4de3-8b97-26f260937ae2": "Exibição de Localização Avançada de Cliente",
+      "d782d7e1-e761-4f43-b8ef-48498eebde52": "Clientes Ativos(as)",
+      "eb1be8d4-3620-4232-9087-e547ebf8a1ef": "Exibição de Consulta de Cliente",
+      "f1494dc5-f154-43f7-b4d2-12a7fd883b3a": "Exibição Associada de Cliente"
+    }
+  },
+  {
+    "DisplayName": "Status (Clientes)",
+    "Name": "pet_cliente_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Clientes"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Clientes",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Clientes)",
+    "Name": "pet_cliente_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Clientes"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Clientes",
+    "Type": "OptionSetInfo"
+  }
+]

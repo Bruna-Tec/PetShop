@@ -1,0 +1,32 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_pet_cliente_forms",
+      "Namespace": "Clientes (Formulários)",
+      "Values": {
+        "Informações": "5477b8fe-6ac6-4654-8c63-988b5fa079bd"
+      }
+    },
+    {
+      "Kind": "default.cds_pet_animal_forms",
+      "Namespace": "Animais (Formulários)",
+      "Values": {
+        "Informações": "0ccaf747-2395-4a88-bad0-e9e84adc7e41"
+      }
+    },
+    {
+      "Kind": "default.cds_pet_agendamento_forms",
+      "Namespace": "Agendamentos_1 (Formulários)",
+      "Values": {
+        "Informações": "815ba45f-4384-4ca8-a3ac-d989eca864e3"
+      }
+    },
+    {
+      "Kind": "default.cds_asyncoperation_forms",
+      "Namespace": "Trabalhos do Sistema (Formulários)",
+      "Values": {
+        "Information": "436c0566-7176-466b-b109-46af8263ab22"
+      }
+    }
+  ]
+}
