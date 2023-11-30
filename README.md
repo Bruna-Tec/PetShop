@@ -23,4 +23,8 @@
 4. Tela de Agendamentos: agendamento do tipo de serviço, data e horário;
    
 5. Tela de Confirmação: confirma que o agendamento foi realizado com sucesso e retorna a tela inicial.
+
+![telaInicial](https://github.com/Bruna-Tec/PetShop/assets/150478974/ed60ae8a-41a7-4ead-8a6c-82766f783f1d)
+![cadastroCliente](https://github.com/Bruna-Tec/PetShop/assets/150478974/18f4c7e0-a11c-40c0-bb92-1a1043a15eb1)
+![cadastroAnimal](https://github.com/Bruna-Tec/PetShop/assets/150478974/291512a0-83a6-42a4-906b-79aef6121fd8)
  
