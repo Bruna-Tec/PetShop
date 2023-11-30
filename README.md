@@ -66,5 +66,26 @@
     
    (Power Automate - fluxos automatizados)
    1. Fluxo para consultar CEP
+      
+- Inicializando o fluxo e fazendo a requisição para API de CEP:
+  
+![fluxo2](https://github.com/Bruna-Tec/PetShop/assets/150478974/60352583-6b9d-45dc-87a6-13bfc7e344a6)
+
+- Gerando dados usando modelo JSON e definindo as entradas:
+  
+![fluxo3](https://github.com/Bruna-Tec/PetShop/assets/150478974/2b783b91-09ba-433d-894a-c7f50a212734)
+
+- Criando as variáveis:
+  
+![fluxo4](https://github.com/Bruna-Tec/PetShop/assets/150478974/d0076497-4186-4b2f-8814-0c834fb085e1)
+
+- Definindo as variáveis:
+  
+![fluxo5](https://github.com/Bruna-Tec/PetShop/assets/150478974/ae0d4714-c5fe-4835-80bd-8863b4441351)
+
+- Respondendo ao fluxo no power apps:
+  
+![fluxo6](https://github.com/Bruna-Tec/PetShop/assets/150478974/bc3350f6-9f00-4d38-936d-7d40a52bb965)
+
 
  
