@@ -631,9 +631,10 @@ Agendamentos As screen:
         Height: =80
         Size: =21
         Text: |+
-            =If(Nome_Servico.Selected.Value=Serviços.Banho="R$ 30,00","R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.Tosa="R$ 25,00","R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.'Banho e Tosa'="R$ 50,00","R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.Consulta="R$ 120,00","R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.'Pacote Completo'="R$ 200,00","R$ 0,00")
+            =//If(Nome_Servico.Selected.Value=Serviços.Banho="R$ 30,00";"R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.Tosa="R$ 25,00";"R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.'Banho e Tosa'="R$ 50,00";"R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.Consulta="R$ 120,00";"R$ 0,00"Or Nome_Servico.Selected.Value=Serviços.'Pacote Completo'="R$ 200,00";"R$ 0,00")
             
             
+        Visible: =false
         X: =22
         Y: =921
         ZIndex: =10

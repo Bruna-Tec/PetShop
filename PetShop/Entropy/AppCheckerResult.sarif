@@ -14,211 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 45,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Agendamentos",
-                "type": "Agendamentos.mostra_valor"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Boolean",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 110,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Agendamentos",
-                "type": "Agendamentos.mostra_valor"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Boolean",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 185,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Agendamentos",
-                "type": "Agendamentos.mostra_valor"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Boolean",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 254,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Agendamentos",
-                "type": "Agendamentos.mostra_valor"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Boolean",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Agendamentos.mostra_valor.Text",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 333,
-                  "snippet": {
-                    "text": "="
-                  }
-                }
-              },
-              "properties": {
-                "member": "Text",
-                "module": "Agendamentos",
-                "type": "Agendamentos.mostra_valor"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Boolean",
-              "Text"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Cadastro Clientes'.Form_Cadastro_Clientes.Nome_DataCard.DataCardValue26.AccessibleLabel"
                 }
               ],
@@ -242,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -272,7 +67,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -302,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -332,7 +127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -362,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -392,7 +187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -422,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -452,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -482,7 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -512,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -542,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -572,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -602,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -632,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -662,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -692,7 +487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -722,7 +517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -752,7 +547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -782,7 +577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -812,7 +607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -842,7 +637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -872,7 +667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -902,7 +697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -932,7 +727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -962,7 +757,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -992,7 +787,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1022,7 +817,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1052,7 +847,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1082,7 +877,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1112,7 +907,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1142,7 +937,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1172,7 +967,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1202,7 +997,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1232,7 +1027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1262,7 +1057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1292,7 +1087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1322,7 +1117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1352,7 +1147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1382,7 +1177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1412,7 +1207,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1442,7 +1237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1472,7 +1267,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1502,7 +1297,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 1
         }
       ],
       "tool": {
@@ -1510,24 +1305,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
-              "messageStrings": {
-                "issue": {
-                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
-                  "If you’re comparing records or tables, the field or column types must match exactly."
-                ],
-                "level": "Medium",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
