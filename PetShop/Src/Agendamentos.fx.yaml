@@ -124,6 +124,8 @@ Agendamentos As screen:
 
             DataCardKey13 As label:
                 AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -135,10 +137,14 @@ Agendamentos As screen:
 
             DataCardValue9 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderStyle: =BorderStyle.None
+                ChevronBackground: =RGBA(202, 202, 202, 1)
+                ChevronFill: =RGBA(77, 77, 77, 1)
+                ChevronHoverFill: =RGBA(77, 77, 77, 1)
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["pet_name"]
                 DisplayMode: =Parent.DisplayMode
-                Height: =70
+                Height: =60
                 Items: =Choices([@Agendamentos_1].pet_Tutor)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["pet_name"]
@@ -541,7 +547,7 @@ Agendamentos As screen:
                 Width: |
                     =300
                 Wrap: =false
-                X: =138
+                X: =170
                 Y: =10
                 ZIndex: =1
 
