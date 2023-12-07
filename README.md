@@ -65,13 +65,13 @@
      - Valor do serviço
     
    (Power Automate - fluxos automatizados)
-   1. Fluxo para consultar CEP
+   1. Fluxo para consultar CEP pelo power automate, usando uma API pública:
       
-- Inicializando o fluxo e fazendo a requisição para API de CEP:
+- Inicializando o fluxo, fazendo a chamada do power apps no power automate e fazendo a requisição para API de CEP via HTTP / GET:
   
 ![fluxo2](https://github.com/Bruna-Tec/PetShop/assets/150478974/60352583-6b9d-45dc-87a6-13bfc7e344a6)
 
-- Gerando dados usando modelo JSON e definindo as entradas:
+- Analisando o corpo do JSON para formatar os parâmetros que foram obtidos e compondo as entradas que queremos usar para retornar as saídas separadamente:
   
 ![fluxo3](https://github.com/Bruna-Tec/PetShop/assets/150478974/2b783b91-09ba-433d-894a-c7f50a212734)
 
